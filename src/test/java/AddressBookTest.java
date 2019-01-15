@@ -21,6 +21,7 @@ public class AddressBookTest {
         b3 = new BuddyInfo(name, phonenumber);
     }
 
+    //test
     @Test
     public void testConstructor() {
         AddressBook a = new AddressBook();
