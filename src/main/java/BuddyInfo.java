@@ -1,6 +1,15 @@
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class BuddyInfo {
+    @Id
     private String name;
     private String phoneNumber;
+
+    public BuddyInfo() {
+        
+    }
 
     public BuddyInfo(String name, String phoneNumber) {
         if(name == null || phoneNumber == null) {

@@ -1,6 +1,9 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.persistence.*;
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 public class AddressBookTest {
@@ -65,6 +68,57 @@ public class AddressBookTest {
     public void testClear(){
         addressBook.clear();
         assertEquals("AddressBook should be empty", 0, addressBook.size());
+    }
+
+    @Test
+    public void persist() {
+        BuddyInfo buddy1 = new BuddyInfo();
+        buddy1.setName("Kshamina");
+        buddy1.setPhoneNumber("6135555555");
+
+        BuddyInfo buddy2 = new BuddyInfo();
+        buddy2.setName("Ghelani");
+        buddy2.setPhoneNumber("3333333333");
+
+        AddressBook book = new AddressBook();
+        Long id = new Long(943849032);
+        book.setId(id);
+        book.addBuddy(buddy1);
+        book.addBuddy(buddy2);
+
+        // Connect to DB
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa-test");
+        EntityManager em = emf.createEntityManager();
+
+        // New transaction
+        EntityTransaction tx = em.getTransaction();
+        tx.begin();
+
+        // Persist buddies in address book
+//        for(BuddyInfo buddy: book.getBuddies()) {
+//            em.persist(buddy);
+//        }
+        em.persist(book);
+        tx.commit();
+
+        // Query buddies in DB
+        Query q = em.createQuery("SELECT addrBook from AddressBook addrBook");
+        @SuppressWarnings("unchecked")
+        List<AddressBook> ab = q.getResultList();
+
+        System.out.println("List of buddies\n----------------");
+
+        for (AddressBook b : ab) {
+            List<BuddyInfo> buddies = b.getBuddies();
+            for(BuddyInfo bud : buddies) {
+                System.out.println(bud.getName() + " (phone number=" + bud.getPhoneNumber() + ")");
+            }
+        }
+
+        // Closing connection
+        em.close();
+
+        emf.close();
     }
 
 }

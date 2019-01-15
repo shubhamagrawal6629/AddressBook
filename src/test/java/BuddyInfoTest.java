@@ -1,6 +1,10 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.persistence.*;
+
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 public class BuddyInfoTest {
@@ -33,5 +37,40 @@ public class BuddyInfoTest {
     @Test
     public void testToString() {
         assertEquals("Should say 'test: 5555555'", "test: 5555555", buddyInfo.toString());
+    }
+
+    @Test
+    public void persist() {
+        BuddyInfo buddy = new BuddyInfo();
+        buddy.setName("Kshamina");
+        buddy.setPhoneNumber("6135555555");
+
+        // Connect to DB
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa-test");
+        EntityManager em = emf.createEntityManager();
+
+        // New transaction
+        EntityTransaction tx = em.getTransaction();
+        tx.begin();
+
+        // Persisting buddy object
+        em.persist(buddy);
+        tx.commit();
+
+        // Query buddies in DB
+        Query q = em.createQuery("SELECT b from BuddyInfo b");
+        @SuppressWarnings("unchecked")
+        List<BuddyInfo> results = q.getResultList();
+
+        System.out.println("List of buddies\n----------------");
+
+        for (BuddyInfo b : results) {
+            System.out.println(b.toString());
+        }
+
+        // Closing connection
+        em.close();
+
+        emf.close();
     }
 }
