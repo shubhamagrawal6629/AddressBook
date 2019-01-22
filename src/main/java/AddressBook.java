@@ -2,7 +2,7 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
+@Entity(name = "AddressBook")
 public class AddressBook {
     private Long id;
     private List<BuddyInfo> buddies;
@@ -52,7 +52,7 @@ public class AddressBook {
         return buddyList;
     }
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "book", cascade = CascadeType.ALL)
     public List<BuddyInfo> getBuddies() {
         return buddies;
     }

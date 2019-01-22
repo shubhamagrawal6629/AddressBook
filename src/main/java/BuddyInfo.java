@@ -1,11 +1,14 @@
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
-@Entity
+@Entity(name = "BuddyInfo")
 public class BuddyInfo {
     @Id
     private String name;
     private String phoneNumber;
+
+    private AddressBook book;
 
     public BuddyInfo() {
         
@@ -17,6 +20,11 @@ public class BuddyInfo {
         }
         this.name = name;
         this.phoneNumber = phoneNumber;
+    }
+
+    @ManyToOne
+    public AddressBook getBook() {
+        return book;
     }
 
     public String getName() {

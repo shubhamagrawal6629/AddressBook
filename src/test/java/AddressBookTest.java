@@ -73,11 +73,11 @@ public class AddressBookTest {
     @Test
     public void persist() {
         BuddyInfo buddy1 = new BuddyInfo();
-        buddy1.setName("Kshamina");
+        buddy1.setName("Kshamina1");
         buddy1.setPhoneNumber("6135555555");
 
         BuddyInfo buddy2 = new BuddyInfo();
-        buddy2.setName("Ghelani");
+        buddy2.setName("Kshamina2");
         buddy2.setPhoneNumber("3333333333");
 
         AddressBook book = new AddressBook();
@@ -110,8 +110,11 @@ public class AddressBookTest {
 
         for (AddressBook b : ab) {
             List<BuddyInfo> buddies = b.getBuddies();
+            int x = 1;
             for(BuddyInfo bud : buddies) {
                 System.out.println(bud.getName() + " (phone number=" + bud.getPhoneNumber() + ")");
+                assertEquals("Kshamina" + x, bud.getName());
+                x++;
             }
         }
 

@@ -1,9 +1,11 @@
 import org.junit.Before;
 import org.junit.Test;
+import org.sqlite.SQLiteConfig;
 
 import javax.persistence.*;
 
 import java.util.List;
+import java.util.Properties;
 
 import static org.junit.Assert.*;
 
@@ -58,7 +60,8 @@ public class BuddyInfoTest {
         tx.commit();
 
         // Query buddies in DB
-        Query q = em.createQuery("SELECT b from BuddyInfo b");
+        Query q = em.createQuery("SELECT b FROM BuddyInfo b");
+
         @SuppressWarnings("unchecked")
         List<BuddyInfo> results = q.getResultList();
 
@@ -66,6 +69,7 @@ public class BuddyInfoTest {
 
         for (BuddyInfo b : results) {
             System.out.println(b.toString());
+            assertEquals("Kshamina", b.getName());
         }
 
         // Closing connection
