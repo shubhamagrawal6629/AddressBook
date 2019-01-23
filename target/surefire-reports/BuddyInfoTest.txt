@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: BuddyInfoTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in BuddyInfoTest
+testNullName(BuddyInfoTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.NullPointerException
+
+testNullNumber(BuddyInfoTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.NullPointerException
+
