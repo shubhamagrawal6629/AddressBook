@@ -1,4 +1,5 @@
-addressbook\Application.class
 addressbook\AddressBook.class
-addressbook\BuddyRepository.class
 addressbook\BuddyInfo.class
+addressbook\Application.class
+addressbook\BuddyRepository.class
+addressbook\BuddyController.class
