@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e0ffc30-65ad-4a5a-bb2c-873b379a8daa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/addressbook/BuddyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/addressbook/ViewConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/addressbook/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/addressbook/HandleHttpRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/addressbook/HttpRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/addressbook/WebLayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/addressbook/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/addressbook/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/addressbook/BuddyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/addressbook/BuddyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/addressbook/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/addressbook/AddressBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/addressbook/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/addressbook/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/addressbook/BuddyInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/addressbook/BuddyInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/addressbook/BuddyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/addressbook/BuddyRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AddressBookTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/BuddyInfoTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AddressBookTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-BuddyInfoTest.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,17 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+            <state relative-caret-position="313">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/BuddyController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/ViewConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +55,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/add.html">
+        <entry file="file://$PROJECT_DIR$/src/test/java/addressbook/ApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="14" selection-start-line="14" selection-end-line="24" selection-end-column="15" />
+            <state relative-caret-position="34">
+              <caret line="8" column="45" selection-start-line="8" selection-end-line="8" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/addressbook/HandleHttpRequestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/addressbook/WebLayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/addressbook/HttpRequestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,20 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="272">
               <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/BuddyInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -119,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/BuddyRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="85">
               <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,8 +147,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -163,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/main/java/addressbook/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/addressbook/AddressBook.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/addressbook/AddressBookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/addressbook/BuddyRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/addressbook/BuddyInfo.java" />
@@ -171,6 +183,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/add.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/result.html" />
         <option value="$PROJECT_DIR$/src/main/java/addressbook/BuddyController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/addressbook/ApplicationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/addressbook/HttpRequestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/addressbook/HandleHttpRequestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/addressbook/WebLayerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/addressbook/ViewConfig.java" />
       </list>
     </option>
   </component>
@@ -221,11 +239,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1312" />
-    <option name="y" value="-125" />
-    <option name="width" value="697" />
-    <option name="height" value="646" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="846" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -233,7 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
@@ -272,29 +288,28 @@
               <item name="SYSC4806" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="AddressBook" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="SYSC4806" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="AddressBook" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="META-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="SYSC4806" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="AddressBook" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="addressbook" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +320,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548815601246" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549465381160" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Backup/SSSC" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -319,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="JUnit.WebLayerTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="addressbook.Application" />
       <extension name="coverage">
@@ -332,6 +348,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AddressBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addressbook" />
+      <option name="MAIN_CLASS_NAME" value="addressbook.ApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandleHttpRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AddressBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addressbook" />
+      <option name="MAIN_CLASS_NAME" value="addressbook.HandleHttpRequestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AddressBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addressbook" />
+      <option name="MAIN_CLASS_NAME" value="addressbook.HttpRequestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebLayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AddressBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addressbook" />
+      <option name="MAIN_CLASS_NAME" value="addressbook.WebLayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="AddressBook" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="addressbook.Application" />
@@ -340,12 +416,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddressBook" />
+      <item itemvalue="Application.Application" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="JUnit.ApplicationTest" />
+      <item itemvalue="JUnit.HttpRequestTest" />
+      <item itemvalue="JUnit.HandleHttpRequestTest" />
+      <item itemvalue="JUnit.WebLayerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AddressBook" />
+        <item itemvalue="JUnit.WebLayerTest" />
+        <item itemvalue="JUnit.HandleHttpRequestTest" />
+        <item itemvalue="JUnit.HttpRequestTest" />
+        <item itemvalue="JUnit.ApplicationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -362,12 +445,48 @@
       <workItem from="1547741133353" duration="18000" />
       <workItem from="1548258072464" duration="1222000" />
       <workItem from="1548793376675" duration="4537000" />
-      <workItem from="1548811437990" duration="4154000" />
+      <workItem from="1548811437990" duration="4237000" />
+      <workItem from="1548855783992" duration="1027000" />
+      <workItem from="1548856903334" duration="178000" />
+      <workItem from="1548863740226" duration="191000" />
+      <workItem from="1549463045588" duration="2327000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ApplicationTest - 2019.02.06 at 09h 33m 36s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest - 2019.02.06 at 09h 35m 49s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpRequestTest - 2019.02.06 at 09h 39m 31s.xml">
+      <configuration name="HttpRequestTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpRequestTest - 2019.02.06 at 09h 42m 57s.xml">
+      <configuration name="HttpRequestTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpRequestTest - 2019.02.06 at 09h 43m 49s.xml">
+      <configuration name="HttpRequestTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpRequestTest - 2019.02.06 at 09h 44m 05s.xml">
+      <configuration name="HttpRequestTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HandleHttpRequestTest - 2019.02.06 at 09h 50m 27s.xml">
+      <configuration name="HandleHttpRequestTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebLayerTest - 2019.02.06 at 09h 52m 47s.xml">
+      <configuration name="WebLayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebLayerTest - 2019.02.06 at 09h 53m 17s.xml">
+      <configuration name="WebLayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebLayerTest - 2019.02.06 at 09h 56m 50s.xml">
+      <configuration name="WebLayerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11044000" />
+    <option name="totallyTimeSpent" value="14850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,10 +498,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-316" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="846" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -395,22 +514,22 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.5547129" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.73255813" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2892741" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28737542" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32827735" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32724252" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.13432837" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.21215352" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.35897437" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32985204" />
@@ -491,27 +610,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/AddressBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/BuddyInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf-spring5/3.0.9.RELEASE/thymeleaf-spring5-3.0.9.RELEASE.jar!/org/thymeleaf/spring5/processor/AbstractSpringFieldTagProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -528,26 +626,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/add.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/BuddyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="14" selection-start-line="14" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        <state relative-caret-position="170">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/BuddyRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/BuddyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/AddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/BuddyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -557,15 +679,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="272">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/BuddyController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/addressbook/ApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="34">
+          <caret line="8" column="45" selection-start-line="8" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/addressbook/HttpRequestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/addressbook/HandleHttpRequestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/addressbook/WebLayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/addressbook/ViewConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
