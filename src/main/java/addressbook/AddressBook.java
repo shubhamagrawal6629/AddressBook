@@ -1,11 +1,29 @@
+package addressbook;
+
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
 public class AddressBook {
+    @Id
+    @GeneratedValue
+    private Long id;
     private List<BuddyInfo> buddies;
 
     public AddressBook() {
+
         this.buddies = new ArrayList<BuddyInfo>();
+    }
+
+    @Id
+    @GeneratedValue
+    public Long getId() {
+        return this.id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public void addBuddy(BuddyInfo buddy) {
@@ -36,6 +54,15 @@ public class AddressBook {
             buddyList += buddies.get(i).toString() + "\n";
         }
         return buddyList;
+    }
+
+//    @OneToMany(mappedBy = "book", cascade = CascadeType.ALL)
+//    public List<BuddyInfo> getBuddies() {
+//        return buddies;
+//    }
+
+    public void setBuddies(List<BuddyInfo> buddies) {
+        this.buddies = buddies;
     }
 
     public static void main(String[] args) {
